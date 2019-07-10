@@ -3,5 +3,5 @@ This is a binary search question. mid is the midpoint of left and right. If inpu
 
 On the contrary, if "input_list[mid] < input_list[right]", it means that midpoint is in left part of the array (segmented by rotated center). Similarly, we check again input_list[left] <= number < input_list[mid] to determine how to deal with left and right.<br>
 
-** Time complexity: O(log N)<br>
-Space complexity; O(1) **
+**Time complexity: O(log N)<br>
+Space complexity; O(1)**
